@@ -475,12 +475,15 @@
         <div class="subscribe-box">
           <p class="subscribe-title">Subscribe</p>
           <form class="subscribe-list">
-            <input
-              type="email"
-              name="email"
-              class="subscribe-input"
-              placeholder="E-mail"
-            />
+            <label class="subscribe-item">
+              <input
+                type="email"
+                name="email"
+                class="subscribe-input"
+                placeholder="E-mail"
+              />
+            </label>
+
             <button class="subscribe-button" type="submit">
               Subscribe
 
@@ -502,63 +505,51 @@
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="form">
-          <fieldset class="form-group">
-            <div class="form-wrraper-cont">
-              <label for="name" class="form-label"> Name </label>
-              <div class="modal-cont-input">
-                <input
-                  type="text"
-                  name="username"
-                  id="name"
-                  class="form-input"
-                />
-                <svg class="form-icons" width="18" height="18">
-                  <use href="./images/icons.svg#icon-name"></use>
-                </svg>
-              </div>
+          <div class="form-wrraper-cont">
+            <label for="name" class="form-label"> Name </label>
+            <div class="modal-cont-input">
+              <input type="text" name="username" id="name" class="form-input" />
+              <svg class="form-icons" width="18" height="18">
+                <use href="./images/icons.svg#icon-name"></use>
+              </svg>
             </div>
+          </div>
 
-            <div class="form-wrraper-cont">
-              <label for="phone" class="form-label"> Phone </label>
-              <div class="modal-cont-input">
-                <input
-                  type="tel"
-                  name="contact_tel"
-                  id="phone"
-                  class="form-input"
-                />
-                <svg class="form-icons" width="18" height="18">
-                  <use href="./images/icons.svg#icon-phone"></use>
-                </svg>
-              </div>
+          <div class="form-wrraper-cont">
+            <label for="phone" class="form-label"> Phone </label>
+            <div class="modal-cont-input">
+              <input
+                type="tel"
+                name="contact_tel"
+                id="phone"
+                class="form-input"
+              />
+              <svg class="form-icons" width="18" height="18">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
             </div>
+          </div>
 
-            <div class="form-wrraper-cont">
-              <label for="email" class="form-label"> Email</label>
-              <div class="modal-cont-input">
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  class="form-input"
-                />
-                <svg class="form-icons" width="18" height="18">
-                  <use href="./images/icons.svg#icon-email"></use>
-                </svg>
-              </div>
+          <div class="form-wrraper-cont">
+            <label for="email" class="form-label"> Email</label>
+            <div class="modal-cont-input">
+              <input type="email" name="email" id="email" class="form-input" />
+              <svg class="form-icons" width="18" height="18">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
             </div>
+          </div>
 
-            <label for="comment" class="form-label">
-              Comment
-              <textarea
-                name="comment"
-                rows="8"
-                placeholder="Text input"
-                class="form-input-comment"
-                id="comment"
-              ></textarea>
-            </label>
-          </fieldset>
+          <label for="comment" class="form-label">
+            Comment
+            <textarea
+              name="comment"
+              rows="8"
+              placeholder="Text input"
+              class="form-input-comment"
+              id="comment"
+            ></textarea>
+          </label>
         </form>
         <div class="form-field">
           <input
