@@ -692,18 +692,6 @@ main {
   color: #8e8f99;
 }
 
-/* display: flex;
-  flex-direction: column;
-  gap: 8px;
-  padding: 0;
-  margin: 0;
-  border: none;
- */
-
-.form-wrraper-cont {
-  margin-bottom: 8px;
-}
-
 .form-label {
   display: block;
   margin-bottom: 4px; 
@@ -749,10 +737,6 @@ input:focus {
   border-color: #4d5ae5;
 }
 
-.form-wrraper-comment{
-  margin-bottom: 16px;
-}
-
 .form-input-comment {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
@@ -784,8 +768,6 @@ input:focus {
   display: flex;
   align-items: center;
   gap: 8px;
-  margin-top: 16px;
-  margin-bottom: 24px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
