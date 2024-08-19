@@ -740,13 +740,16 @@ input:focus {
   border-color: #4d5ae5;
 }
 
+.form-wrraper-comment{
+  margin-bottom: 16px;
+}
+
 .form-input-comment {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   width: 100%;
   height: 120px;
   padding: 8px 16px; 
-  margin-bottom: 16px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
@@ -770,13 +773,13 @@ input:focus {
 .form-field {
   display: flex;
   align-items: center;
-  gap: 8px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 117%;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  margin-bottom: 24px;
 }
 
 .form-checkbox-hidden:checked+.form-label-policy > .form-checkbox{
@@ -798,9 +801,9 @@ input:focus {
   fill: transparent;
 }
 
-.form-label-policy{
+/* .form-label-policy{
   margin-bottom: 24px;
-}
+} */
 
 .modal-button {
   font-family: "Roboto", sans-serif;
