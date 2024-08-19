@@ -681,15 +681,19 @@ main {
 }
 
 .form {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 12px; */
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 117%;
   letter-spacing: 0.04em;
   color: #8e8f99;
+}
+
+.form-wrraper-cont{
+  margin-bottom: 8px;
 }
 
 .form-label {
@@ -742,6 +746,7 @@ input:focus {
   width: 100%;
   height: 120px;
   padding: 8px 16px; 
+  margin-bottom: 16px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
@@ -791,14 +796,11 @@ input:focus {
   align-items: center;
   justify-content: center;
   fill: transparent;
-
 }
 
-
-.checkbox-icons{
-
+.form-label-policy{
+  margin-bottom: 24px;
 }
-
 
 .modal-button {
   font-family: "Roboto", sans-serif;
